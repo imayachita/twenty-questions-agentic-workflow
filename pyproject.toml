@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "twenty-questions-agentic-workflow"
+version = "0.1.0"
+description = "Requirements to build LLM agentic workflows"
+authors = ["Inneke <mayachita.inneke@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+
+langgraph = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-openai = "*"
+ipython = "*"
