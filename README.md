@@ -11,7 +11,7 @@ Run `python main.py`
 
 # Explanation
 The LLMs agentic workflow was built using LangGraph to allow flexibility in defining the agents and their connectivity.
-Below is the diagram of the agents workflow:\n\n
+Below is the diagram of the agents workflow:<br><br>
 ![alt text](graph_workflow.png)
 
 The host agent is divided into "sub-agents" (represented as nodes in the graph):
