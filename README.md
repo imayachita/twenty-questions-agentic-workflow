@@ -12,7 +12,7 @@ Run `python main.py`
 # Explanation
 The LLMs agentic workflow was built using LangGraph to allow flexibility in defining the agents and their connectivity.
 Below is the diagram of the agents workflow:
-![alt text](twenty_questions_agentic_workflow/graph_workflow.png)
+![alt text](graph_workflow.png)
 
 The host agent is divided into "sub-agents" (represented as nodes in the graph):
 - `create_secret_object`: come up with a secret object the opponent has to guess
